@@ -40,7 +40,7 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 
   gem 'bcrypt', '~> 3.1.7'  # For password hashing
-  gem 'jwt', '~> 2.3'       # For JWT authentication
+  gem 'jwt', '~> 2.9'       # For JWT authentication
   gem 'sidekiq'             # For background jobs
   gem 'redis'               # For Redis (needed by Sidekiq)
 
